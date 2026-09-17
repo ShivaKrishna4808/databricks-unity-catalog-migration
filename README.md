@@ -90,3 +90,6 @@ Existing AWS and Databricks resources were imported into Terraform and reconcile
 
 - Migration and rollback documentation
 - Architecture screenshots and final documentation
+## Migration Documentation
+
+- [Migration Plan](docs/migration-plan.md)
