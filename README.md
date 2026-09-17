@@ -43,3 +43,45 @@ sales
 
 shared
 └── reporting
+
+
+## What This Project Demonstrates
+
+- Unity Catalog governance on AWS
+- AWS IAM integration with Databricks
+- External locations and storage credentials
+- Domain-based catalogs and schemas
+- Raw, curated, analytics, and reporting layers
+- Group-based RBAC and least-privilege access
+- Automated migration validation
+- Terraform import and zero-drift infrastructure management
+
+## Validation Results
+
+- Finance: 5/5 PASS
+- Sales: 6/6 PASS
+- Total: 11/11 PASS
+
+## Technologies
+
+- AWS
+- Amazon S3
+- AWS IAM
+- Databricks
+- Unity Catalog
+- Delta Lake
+- Terraform
+- SQL
+- Python
+- Git and GitHub
+
+## Infrastructure as Code
+
+Existing AWS and Databricks resources were imported into Terraform and reconciled until Terraform reported zero infrastructure drift.
+
+## Next Steps
+
+- GitHub Actions CI
+- Audit logging and monitoring
+- Migration and rollback documentation
+- Architecture screenshots and final documentation
