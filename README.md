@@ -95,3 +95,25 @@ Existing AWS and Databricks resources were imported into Terraform and reconcile
 - [Migration Plan](docs/migration-plan.md)
 - [Rollback Plan](docs/rollback-plan.md)
 - [Architecture](docs/architecture.md)
+
+## Project Screenshots
+
+### Terraform CI
+
+![Terraform CI](docs/screenshots/01-terraform-ci-success.png)
+
+### Unity Catalog Structure
+
+![Unity Catalog Structure](docs/screenshots/02-unity-catalog-structure.png)
+
+### Migration Validation
+
+![Migration Validation](docs/screenshots/03-migration-validation-pass.png)
+
+### Audit Monitoring
+
+![Audit Activity](docs/screenshots/04-audit-activity-24h.png)
+
+### Terraform Zero Drift
+
+![Terraform Zero Drift](docs/screenshots/05-terraform-zero-drift.png)
