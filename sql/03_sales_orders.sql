@@ -1,0 +1,22 @@
+CREATE OR REPLACE TABLE sales.raw.orders
+USING DELTA
+AS
+SELECT *
+FROM VALUES
+  ('ORD1001', 'CUST001', DATE'2026-01-05', 'LAPTOP',      2, 2400.00, 'COMPLETED'),
+  ('ORD1002', 'CUST002', DATE'2026-01-07', 'MONITOR',     1,  350.00, 'COMPLETED'),
+  ('ORD1003', 'CUST003', DATE'2026-01-09', 'KEYBOARD',    3,  225.00, 'PROCESSING'),
+  ('ORD1004', 'CUST004', DATE'2026-01-11', 'MOUSE',       5,  175.00, 'COMPLETED'),
+  ('ORD1005', 'CUST001', DATE'2026-01-15', 'HEADSET',     2,  300.00, 'COMPLETED'),
+  ('ORD1006', 'CUST005', DATE'2026-01-17', 'DOCK',        1,  190.00, 'CANCELLED'),
+  ('ORD1007', 'CUST006', DATE'2026-01-20', 'WEBCAM',      2,  280.00, 'COMPLETED'),
+  ('ORD1008', 'CUST002', DATE'2026-01-22', 'TABLET',      1,  850.00, 'COMPLETED')
+AS orders(
+  order_id,
+  customer_id,
+  order_date,
+  product,
+  quantity,
+  order_amount,
+  status
+);

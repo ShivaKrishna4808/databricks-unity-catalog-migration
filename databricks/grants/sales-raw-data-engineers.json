@@ -1,0 +1,13 @@
+{
+  "changes": [
+    {
+      "principal": "uc_portfolio_data_engineers",
+      "add": [
+        "USE_SCHEMA",
+        "SELECT",
+        "MODIFY",
+        "CREATE_TABLE"
+      ]
+    }
+  ]
+}

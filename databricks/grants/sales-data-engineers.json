@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "principal": "uc_portfolio_data_engineers",
+      "add": [
+        "USE_CATALOG"
+      ]
+    }
+  ]
+}

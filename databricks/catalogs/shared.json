@@ -1,0 +1,5 @@
+{
+  "name": "shared",
+  "comment": "Shared domain catalog for cross-functional reporting",
+  "storage_root": "s3://sk-databricks-uc-AWS_ACCOUNT_ID-us-west-2/external/shared/managed"
+}

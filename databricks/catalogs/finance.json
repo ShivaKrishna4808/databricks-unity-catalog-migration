@@ -1,0 +1,5 @@
+{
+  "name": "finance",
+  "comment": "Finance domain catalog for Unity Catalog migration portfolio project",
+  "storage_root": "s3://sk-databricks-uc-AWS_ACCOUNT_ID-us-west-2/external/finance/managed"
+}
